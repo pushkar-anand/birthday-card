@@ -1,1 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+
+
+<title>Birthday Card</title>
+
+<meta name="author" content="Pushkar Anand" />
+
+<meta name="description" content="A birthday card designed by Pushkar" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="http://www.happybirthdaycake2015.com/wp-content/uploads/2014/11/Birthday-Cake-Candles.jpeg" />
+
+<style>
+
+html {
+    -webkit-animation: chngepic 5s ; /* Chrome, Safari, Opera */
+
+    animation: chngepic 5s ;
+
+}
+
+
+
+@-webkit-keyframes chngepic{
+
+    0% {background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLZJu3R2KoQA9W4EpcTA3oenwpl9MiWd7AcLX1_V6reXxWVQB7);}
+
+    50% {background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIZiSe34UlhOVSqfjwNwYZ8gcJfJYzWghkAmnNT1NaT1kca-aW);}
+
+    100% {background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHz_hTYFVeIKvjZtmj55gXwPoWqK_c-RvILhrQGRu9kJ4c-pO9); }
+
+
+
+}
+
+
+
+@keyframes chngepic{
+
+    0% {background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLZJu3R2KoQA9W4EpcTA3oenwpl9MiWd7AcLX1_V6reXxWVQB7);}
+
+    50% {background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIZiSe34UlhOVSqfjwNwYZ8gcJfJYzWghkAmnNT1NaT1kca-aW);}
+
+    100% {background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHz_hTYFVeIKvjZtmj55gXwPoWqK_c-RvILhrQGRu9kJ4c-pO9); }
+
+
+
+}
+
+.a,
+
+.b,
+
+.c {
+
+  opacity: 0;
+
+text-align:center;
+
+  -webkit-animation: show 5s;
+
+  animation: show 5s;
+  
+ -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+}
+
+.a {
+
+  -webkit-animation-delay: 5s;
+
+  animation-delay: 5s;
+
+}
+
+.b {
+
+  -webkit-animation-delay: 7s;
+
+  animation-delay: 7s;
+
+}
+
+.c {
+
+  -webkit-animation-delay: 15s;
+
+  animation-delay: 15s;
+
+}
+
+
+@-webkit-keyframes show {
+
+  from {
+
+    opacity: 0;
+
+  }
+
+  to {
+
+    opacity: 1;
+
+  }
+
+}
+
+@keyframes show {
+
+  from {
+
+    opacity: 0;
+
+  }
+
+  to {
+
+    opacity: 1;
+
+  }
+
+}
+
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+
+<div class="a">
+
+  <h1>Happy Birthday</h1>
+
+
+
+</div>
+
+<div class="b">
+
+  <p>Another year has passed,</p>
+
+  <p>It's your birthday once more,</p>
+
+  <p>You should feel very special,</p>
+
+  <p>And let your spirit soar.</p>
+
+  <p>Celebrate every moment,</p>
+
+  <p>There's no time to be blue,</p>
+
+  <p>Today is your birthday,</p>
+
+  <p>Today is all about you.</p>
+
+  <p>May you always find joy,</p>
+
+  <p>North, south, east and west,</p>
+
+  <p>Happy, happy birthday to you,</p>
+
+  <p>I wish you the very best.</p>
+
+</div>
+
+<div class="c"><h2>Happy Birthday Dear!!</h2>
+
+<h3> Enjoy the day</h3>
+
+</div>
+
+</body>
+
+</html>
 
